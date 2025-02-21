@@ -25,12 +25,10 @@
     </style>
   </head>
   <body>
-    <div class="main relative w-full h-[150vh] bg-[#212121] text-white">
-      <nav
-        class="flex items-center justify-between w-full h-[9.5vh] lg:h-[12vh] px-10 lg:px-7 font-['Area_Normal']"
-      >
+    <div class="main relative w-full h-screen sm:h-[150vh] bg-[#212121] text-white">
+      <nav class="flex items-center justify-between w-full h-[12vh] sm:h-[9.5vh] lg:h-[12vh] px-[18.5px] sm:px-10 lg:px-7 font-['Area_Normal']">
         <img
-          class="w-[21.3vh] lg:w-[21.2vh]"
+          class="w-[21.2vh] sm:w-[21.3vh] lg:w-[21.2vh]"
           src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/logo.svg"
           alt=""
         />
@@ -42,20 +40,20 @@
           <a href="#">Contact us</a>
           <a href="#">FR/<span class="underline">EN</span></a>
         </div>
-        <div class="relative flex lg:hidden mt-[-55px] md:pr-2 lg:pr-0">
-          <div class="absolute w-[1px] h-[4vw] bg-zinc-300 rotate-90"></div>
+        <div class="relative flex lg:hidden mt-[-54px] sm:mt-[-55px] pr-10  sm:pr-2 lg:pr-0">
+          <div class="absolute w-[1px] h-[7vh] bg-zinc-300 rotate-90"></div>
           <div
-            class="absolute mt-2 w-[1px] h-[4vw] bg-zinc-300 rotate-90"
+            class="absolute mt-2 w-[1px] h-[7vh] bg-zinc-300 rotate-90"
           ></div>
           <div
-            class="absolute mt-4 w-[1px] h-[4vw] bg-zinc-300 rotate-90"
+            class="absolute mt-4 w-[1px] h-[7vh] bg-zinc-300 rotate-90"
           ></div>
         </div>
       </nav>
 
       <div
         id="bgText"
-        class="absolute text-[6.5vw] lg:text-[8vw] leading-[5vw] lg:leading-[7.5vw] left-1/2 -translate-x-1/2 mt-[139px] lg:mt-14 font-[900] flex flex-col gap-2 items-center whitespace-nowrap select-none"
+        class="absolute text-[10vh] bg-red-400 sm:text-[6.5vw] lg:text-[8vw] leading-15 sm:leading-[5vw] lg:leading-[7.5vw] left-1/2 -translate-x-1/2 mt-20 sm:mt-[139px] lg:mt-14 font-[900] flex flex-col gap-2 items-center whitespace-nowrap select-none"
       >
         <div id="line" class="overflow-hidden">
           <h1>IMAGNING</h1>
@@ -74,7 +72,7 @@
         </div>
       </div>
 
-      <div class="flex justify-between">
+      <!-- <div class="flex justify-between">
         <div id="rectangle1" class="relative w-[40vw] h-[70vh] select-none">
           <div
             id="movingImage1"
@@ -206,7 +204,7 @@
             ></div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
