@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="shortcut icon"
+      href="https://www.pha5e.com/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>STUDIO PHA5E</title>
+    <style>
+      ::-webkit-scrollbar {
+        width: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main relative w-full h-[150vh] bg-[#212121] text-white">
+      <nav
+        class="flex items-center justify-between w-full h-[9.5vh] lg:h-[12vh] px-10 lg:px-7 font-['Area_Normal']"
+      >
+        <img
+          class="w-[21.3vh] lg:w-[21.2vh]"
+          src="https://2022-pha5e-website-prod.s3.eu-west-3.amazonaws.com/assets/logo.svg"
+          alt=""
+        />
+
+        <div class="links text-[2.4vh] hidden lg:flex gap-[9.5vh]">
+          <a href="#">Our vision</a>
+          <a href="#">Our team</a>
+          <a href="#">Our projects</a>
+          <a href="#">Contact us</a>
+          <a href="#">FR/<span class="underline">EN</span></a>
+        </div>
+        <div class="relative flex lg:hidden mt-[-55px] md:pr-2 lg:pr-0">
+          <div class="absolute w-[1px] h-[4vw] bg-zinc-300 rotate-90"></div>
+          <div
+            class="absolute mt-2 w-[1px] h-[4vw] bg-zinc-300 rotate-90"
+          ></div>
+          <div
+            class="absolute mt-4 w-[1px] h-[4vw] bg-zinc-300 rotate-90"
+          ></div>
+        </div>
+      </nav>
+
+      <div
+        id="bgText"
+        class="absolute text-[6.5vw] lg:text-[8vw] leading-[5vw] lg:leading-[7.5vw] left-1/2 -translate-x-1/2 mt-[139px] lg:mt-14 font-[900] flex flex-col gap-2 items-center whitespace-nowrap select-none"
+      >
+        <div id="line" class="overflow-hidden">
+          <h1>IMAGNING</h1>
+        </div>
+        <div id="line" class="overflow-hidden">
+          <h1>UNIQUE</h1>
+        </div>
+        <div id="line" class="overflow-hidden">
+          <h1>CONCEPTS</h1>
+        </div>
+        <div id="line" class="overflow-hidden">
+          <h1>AND DIGITAL</h1>
+        </div>
+        <div id="line" class="overflow-hidden">
+          <h1>EXPERIENCES</h1>
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <div id="rectangle1" class="relative w-[40vw] h-[70vh] select-none">
+          <div
+            id="movingImage1"
+            class="scale-0 absolute w-[52.55vh] h-[32.5vh] top-[138px] left-[10.15vw] transition-all duration-500 ease-out -z-1"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="images/purple.png"
+              alt=""
+            />
+            <div
+              id="banner1"
+              class="absolute opacity-0 top-[24.5vh] left-[13.35vw] whitespace-nowrap"
+            >
+              <h1 class="font-[900] text-5xl tracking-wider">BIGGER</h1>
+              <h1 class="font-[900] text-5xl tracking-wider">SCIENCE</h1>
+              <p>Impressive Experience / WebGL / Gaming</p>
+            </div>
+          </div>
+          <div
+            id="blankRect1"
+            class="absolute opacity-0 w-[52.55vh] h-[32.5vh] border-[1.5px] top-[138px] left-[-110px] border-[rgb(61,56,56)] ml-60 overflow-hidden"
+          >
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[58.45deg] -top-[87px] left-1/2"
+            ></div>
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[-58.45deg] -top-[86px] left-1/2"
+            ></div>
+          </div>
+        </div>
+
+        <div id="rectangle2" class="relative w-[50vw] h-[52.2vh] select-none">
+          <div
+            id="movingImage2"
+            class="scale-0 absolute w-[52.55vh] h-[32.5vh] top-[48px] right-[20.7vw] transition-all duration-300 ease-out -z-1"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="images/monitor.png"
+              alt=""
+            />
+            <div
+              id="banner2"
+              class="absolute opacity-0 top-[24.6vh] left-[13.9vw] whitespace-nowrap"
+            >
+              <h1 class="font-[900] text-5xl tracking-wider">MUCEM</h1>
+              <p>Experiential Website</p>
+            </div>
+          </div>
+          <div
+            id="blankRect2"
+            class="absolute opacity-0 w-[52.55vh] h-[32.5vh] border-[1.5px] top-[48px] right-[265px] border-[rgb(61,56,56)] ml-60 overflow-hidden"
+          >
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[58.45deg] -top-[87px] left-1/2"
+            ></div>
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[-58.45deg] -top-[86px] left-1/2"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-between">
+        <div
+          id="rectangle3"
+          class="relative w-[30vw] h-[52.2vh] mt-8 select-none"
+        >
+          <div
+            id="movingImage3"
+            class="scale-0 absolute w-[52.55vh] h-[32.6vh] bottom-[116px] left-[14.76vw] transition-all duration-300 ease-out -z-1"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="images/land.png"
+              alt=""
+            />
+            <div
+              id="banner3"
+              class="absolute opacity-0 top-[24.5vh] left-[13.35vw] whitespace-nowrap"
+            >
+              <h1 class="font-[900] text-5xl tracking-wider">UNGANISHA</h1>
+              <p>Experiential Website / WebGL / 3D</p>
+            </div>
+          </div>
+          <div
+            id="blankRect3"
+            class="absolute opacity-0 w-[52.55vh] h-[32.6vh] border-[1.5px] bottom-[116px] left-[-50px] border-[rgb(61,56,56)] ml-60 overflow-hidden"
+          >
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[58.45deg] -top-[87px] left-1/2"
+            ></div>
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[-58.45deg] -top-[86px] left-1/2"
+            ></div>
+          </div>
+        </div>
+        <div
+          id="rectangle4"
+          class="relative w-[39vw] h-[52.2vh] -mt-[102px] select-none"
+        >
+          <div
+            id="movingImage4"
+            class="scale-0 absolute w-[52.55vh] h-[32.6vh] bottom-[117px] right-[15.2vw] transition-all duration-300 ease-out -z-1"
+          >
+            <img
+              class="w-full h-full object-cover"
+              src="images/stones.jpg"
+              alt=""
+            />
+            <div
+              id="banner4"
+              class="absolute opacity-0 top-[24.6vh] left-[13.9vw] whitespace-nowrap"
+            >
+              <h1 class="font-[900] text-5xl tracking-wider">OLIVE TREE</h1>
+              <p>Interactive Installation / Real Time</p>
+            </div>
+          </div>
+          <div
+            id="blankRect4"
+            class="absolute opacity-0 w-[52.55vh] h-[32.6vh] border-[1.5px] bottom-[117px] right-[195px] border-[rgb(61,56,56)] ml-60 overflow-hidden"
+          >
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[58.45deg] -top-[87px] left-1/2"
+            ></div>
+            <div
+              class="absolute w-[1px] h-[61.5vh] bg-[rgb(61,56,56)] rotate-[-58.45deg] -top-[86px] left-1/2"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
